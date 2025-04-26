@@ -1,0 +1,2 @@
+# RHGEMINI
+testando Gemini
