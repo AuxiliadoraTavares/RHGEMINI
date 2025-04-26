@@ -1,0 +1,198 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Fonte neutra e legível */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Cinza escuro para boa legibilidade */
+    background-color: #f5f5f5; /* Cinza bem claro e neutro */
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    background-color: #5c6bc0; /* Azul moderado e suave */
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav a:hover {
+    color: #e0f7fa; /* Azul bem claro ao passar o mouse, suave */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 900px;
+    background-color: #fff; /* Branco neutro para o conteúdo */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0; /* Borda cinza clara */
+}
+
+section h1,
+section h2,
+section h3,
+section h4,
+section h5 {
+    color: #3f51b5; /* Azul um pouco mais vibrante, mas ainda contido */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c5cae9; /* Azul mais claro para a linha */
+    padding-bottom: 10px;
+}
+
+section p {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+section ul {
+    padding-left: 25px;
+    color: #555;
+    list-style-type: disc;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.08);
+}
+
+a {
+    color: #2e7d32; /* Verde mais discreto e agradável */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #1b5e20; /* Verde mais escuro ao passar o mouse */
+    text-decoration: underline;
+}
+
+button {
+    background-color: #00acc1; /* Ciano suavemente vibrante */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #00838f; /* Ciano mais escuro ao passar o mouse */
+}
+
+/* Estilos específicos para o formulário de contato */
+#formulario-contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#formulario-contato input[type="text"],
+#formulario-contato input[type="email"],
+#formulario-contato textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdbdbd; /* Cinza médio para a borda do input */
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f5f5f5; /* Fundo cinza claro para os inputs */
+}
+
+#formulario-contato textarea {
+    resize: vertical;
+}
+
+#formulario-contato button[type="submit"] {
+    background-color: #43a047; /* Verde suavemente vibrante para o submit */
+}
+
+#formulario-contato button[type="submit"]:hover {
+    background-color: #2e7d32; /* Verde mais escuro no hover */
+}
+
+/* Rodapé */
+footer {
+    background-color: #78909c; /* Cinza azulado neutro */
+    color: #fff;
+    padding: 25px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+footer nav a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer nav a:hover {
+    color: #cfd8dc; /* Cinza bem claro ao passar o mouse no rodapé */
+}
+
+footer strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+footer div:last-child {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #b0bec5; /* Cinza azulado mais claro para os créditos */
+}
+
+footer div:last-child a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer div:last-child a:hover {
+    color: #cfd8dc;
+}
